@@ -1,0 +1,315 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: century Gothic;
+	
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1.jpg);
+	height: 100vh;
+	background-position: center; 
+}
+
+.main{
+	max-width: 1200px;
+	top: 0px;
+}
+
+.main ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+.main ul li{
+	display: inline-block;
+}
+
+.main ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #transparent;
+	transsition : 0.5s ease;
+}
+
+.main ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.main ul li a.active{
+	background-color: #fff;
+	color: #000;
+}
+
+
+
+.title{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	font-size: 100px;	
+}
+
+.titlesemi{
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+}
+
+.titlesemi h1{
+	font-size: 70px;	
+}
+	
+.button{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.adminbutton{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	transform: translate(-50%,-50%);
+}
+.adminbutton{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 15px 45px;
+	color: #fff;
+	text-decoration: none;
+	transaction: 0.5s ease;
+}
+
+.adminbtn{
+	
+	border: 2px solid #fff;
+	padding: 100px 100px;
+	color: #fff;
+	text-decoration: none;
+	transaction: 0.5s ease;
+	letter-spacing: 10px
+	
+}
+
+.btn:hover{
+	background-color: #fff;
+	color:  #000;
+	
+}
+
+.adminbtn:hover{
+	background-color: #fff;
+	color:  #000;
+	
+}
+
+.login-box{
+	width: 320px;
+	height: 420px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	right: calc(50% - 50px);
+}
+
+.login-box h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: canter;
+	font-size: 
+}
+.login-box input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #1c8abd;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #80ff80;
+	color: #000;
+	box-shadow: 0 0 10px #93ff93, 0 0 40px #93ff93, 0 0 120px #93ff93;
+}
+.login-box a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+}
+.login-box a:hover
+{
+	color: #39dc79;
+	box-shadow: 0 0 10px #93ff93, 0 0 40px #93ff93, 0 0 120px #93ff93;
+}
+
+.regi{
+	text-align: center;
+	padding: 20px;
+	padding-top: 10%;
+	color: #fff;
+	top: 50%;
+	left:40%;
+}
+.register{
+
+	background: #2d85b0;
+	width: 500px;
+	margin: 0px 430px 0px 430px;
+	color: white;
+	font-size: 18;
+	padding: 20px;
+	border-radius: 10px;
+	
+}
+
+.showresult{
+	background: aqua;
+	width: 700px;
+	margin: 0px 430px 0px 430px;
+	padding: 10px;
+	border-radius: 10px;
+}
+#register{
+	margin-left: 60px;	
+}
+
+#register table tr td{
+	
+}
+#name{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+
+#namefilter{
+	width: 190PX;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#sub{
+	width: 190px;
+	padding: 7px;
+	font-size: 16px;
+	font-weight: 600;
+	border: none;
+	border-radius: 3px
+}
+#subview{
+	width: 100px;
+	padding: 7px;
+	font-size: 16px;
+	font-weight: 600;
+	border: none;
+	border-radius: 3px
+}
+.viewdoctor{
+	
+}
+
+#viewregister{
+	 margin-left: 40%;
+    MARGIN-TOP: 30PX;
+}
+
+#viewregister tr{
+	width:150px;
+	padding : 7px;
+	border-collapse: separate;
+}
+
+.headingdr{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	font-size: 40px;
+	transform: translate(-50%,-50%);
+}
+.drmenu{
+	max-width: 1200px;
+	top: 10%;
+	left: 50%;
+}
+
+
+.drmain ul{
+	float: inherit;
+	list-style-type: none;
+	margin-top: 50px;
+	margin-left: 30%;
+}
+.drmain ul li{
+	display: inline-block;
+}
+
+.drmain ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #transparent;
+	transsition : 0.5s ease;
+}
+
+.drmain ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.drmain ul li a.active{
+	background-color: #fff;
+	color: #000;
+}
+
+
+
