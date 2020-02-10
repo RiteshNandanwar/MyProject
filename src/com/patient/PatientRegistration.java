@@ -61,7 +61,7 @@ public class PatientRegistration extends HttpServlet
 			try {
 				Class.forName("com.mysql.cj.jdbc.Driver");
 			} catch (ClassNotFoundException e) {
-				// TODO Auto-generated catch block
+				// TODO Auto-generated catch
 				e.printStackTrace();
 			}
 			con=DriverManager.getConnection(url,user,pass);
